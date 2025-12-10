@@ -49,10 +49,8 @@ body {
 
 /* Bloc principal  */
 .carte-noel {
-    padding-bottom: 0;
-    /* Supprime le padding bottom pour img de bas*/
     background-color: #fffdf7;
-    width: 820px;
+    width: 70%;
     border-radius: 18px;
     border: 12px solid #28445a;
     padding: 30px 40px;
@@ -351,39 +349,21 @@ body {
 /* --------- Décorations du bas --------- */
 .bas {
     width: 100%;
+    margin: 0;
+    margin-top: 10px;
+    padding: 0;
     display: flex;
     justify-content: center;
-    margin-top: 18px;
 }
 
 .bas img {
     width: 100%;
     height: auto;
     display: block;
-    margin-bottom: -18px;
-}
-
-
-
-/* Le bloc bas touche le bord */
-.bas {
-    width: 100%;
     margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: center;
 }
 
-/* L’image touche le bord directement */
-.bas img {
-    display: block;
-    width: 100%;
-    height: auto;
-    margin: 0;
-    padding: 0;
-    border-bottom-left-radius: inherit;
-    border-bottom-right-radius: inherit;
-}
 
 /* --------- placeholder --------- */
 
