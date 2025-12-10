@@ -87,11 +87,7 @@ body {
     align-items: center;
 }
 
-.presentation p {
-    margin: 0.6rem 0;
-    white-space: nowrap;
 
-}
 
 /* Inputs intégrés dans la ligne */
 .presentation input {
@@ -348,6 +344,7 @@ body {
 
 /* --------- Décorations du bas --------- */
 .bas {
+    z-index: 99;
     width: 100%;
     margin: 0;
     margin-top: 1%;
