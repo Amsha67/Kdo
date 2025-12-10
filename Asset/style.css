@@ -13,11 +13,16 @@ body {
     line-height: 260%;
     font-family: 'Mountains of Christmas', serif;
     color: #153248;
-
+    /* Epaissis le texte car pas de bold dispo dans cette police */
+    font-weight: 500;
+    text-shadow: 1px 0px 0px currentColor;
 }
+
+
 
 /* Grand titre  */
 .titre {
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -44,6 +49,8 @@ body {
 
 /* Bloc principal  */
 .carte-noel {
+    padding-bottom: 0;
+    /* Supprime le padding bottom pour img de bas*/
     background-color: #fffdf7;
     width: 820px;
     border-radius: 18px;
@@ -67,7 +74,10 @@ body {
     gap: 6px;
     font-size: 18px;
 
+
 }
+
+
 
 /* Ligne 1 et ligne 2 en horizontal */
 #p1,
@@ -93,6 +103,11 @@ body {
     padding: 2px 6px;
     min-width: 120px;
     border-radius: 4px;
+}
+
+.presentation img {
+    height: 40px;
+    vertical-align: middle;
 }
 
 /* --------- Décorations au centre --------- */
@@ -142,11 +157,15 @@ body {
     line-height: 200%;
 }
 
+.kdo img {
+    height: 40px;
+}
+
 /* supprime les puces */
 .kdo ul {
     list-style: none;
     padding-left: 0;
-    padding-right: 50px;
+
     margin: 0;
 }
 
@@ -261,6 +280,7 @@ body {
     height: 30px;
 }
 
+
 /* ------------- Gater ----------------*/
 /* ------------- Gater ----------------*/
 /* ------------- Gater ----------------*/
@@ -295,28 +315,37 @@ body {
 /* --------- Message/signature --------- */
 
 
-.message-final {
-    display: flex;
-    flex-direction: column;
-
-}
-
 .message-final p {
     margin: 0;
+    word-spacing: 5px;
 }
 
 /* Inputs intégrés dans la ligne */
 .message-final input {
     border: none;
-    border-bottom: 1px solid #c9b79d;
+
     background-color: #f9e7d5;
     padding: 2px 6px;
     min-width: 120px;
     border-radius: 4px;
 }
 
+#surprise {
+    /* permet de remplir la ligne */
+    width: 80%;
+    border-radius: 8px;
+    padding: 6px 8px;
+    background-color: #f9e7d5;
+    box-sizing: border-box;
+}
+
 .signature {
     text-align: right;
+
+}
+
+.signature input {
+    padding: 6px 8px;
 }
 
 /* --------- Décorations du bas --------- */
@@ -332,6 +361,28 @@ body {
     height: auto;
     display: block;
     margin-bottom: -18px;
+}
+
+
+
+/* Le bloc bas touche le bord */
+.bas {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+/* L’image touche le bord directement */
+.bas img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    border-bottom-left-radius: inherit;
+    border-bottom-right-radius: inherit;
 }
 
 /* --------- placeholder --------- */
