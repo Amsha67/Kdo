@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liste de Kdo</title>
+</head>
+
+<body>
+
+    <!-- Titre général de la page -->
+    <header>
+        <h1>Liste de Kdo</h1>
+    </header>
+
+    <!-- Reste de la page -->
+    <main class="carte-noel">
+
+        <!-- Petit titre  -->
+        <div class="titre-lettre">
+            <h2>Cher Père Noël</h2>
+        </div>
+
+        <!-- Bloc de présentation -->
+        <div class="presentation">
+
+            <p>
+                Je m'appelle
+                <input id="nom" name="nom" type="text" placeholder="Ton prénom">
+            </p>
+
+            <p>
+                J'ai
+                <input id="age" name="age" type="number" min="0" placeholder="Ton âge">
+                années d'existence
+            </p>
+
+            <p>
+                J'habite à
+                <input id="ville" name="ville" type="text" placeholder="Ta ville">
+            </p>
+
+            <p>
+                et j'ai seulement commis
+                <input id="sage" name="peches" type="text" placeholder="Nombre de péchés">
+                peché !
+            </p>
+
+        </div>
+
+        <!-- Petite ligne de décorations centrales (images de Noël) -->
+        <div class="decor-centre">
+            <img src="images/decor1.png" alt="Décoration de Noël">
+            <img src="images/decor2.png" alt="Décoration de Noël">
+            <img src="images/decor3.png" alt="Décoration de Noël">
+        </div>
+
+        <!-- Titre des souhaits (ton texte gardé) -->
+        <div class="titre-souhaits">
+            <h2>J'aimerais beaucoup que tu m'apportes :</h2>
+        </div>
+
+        <!-- Bloc KDO -->
+        <div class="bloc">
+
+            <div class="colonnes-cadeaux">
+                <!-- Colonne gauche : Ma liste de Kdo -->
+                <div class="kdo">
+                    <p>Ma liste de Kdo :</p>
+                    <ul>
+                        <li><input id="kdo1" name="kdo1" type="text"></li>
+                        <li><input id="kdo2" name="kdo2" type="text"></li>
+                        <li><input id="kdo3" name="kdo3" type="text"></li>
+                        <li><input id="kdo4" name="kdo4" type="text"></li>
+                        <li><input id="kdo5" name="kdo5" type="text"></li>
+                        <li><input id="kdo6" name="kdo6" type="text"></li>
+                        <li><input id="kdo7" name="kdo7" type="text"></li>
+                        <li><input id="kdo8" name="kdo8" type="text"></li>
+                        <li><input id="kdo9" name="kdo9" type="text"></li>
+                        <li><input id="kdo10" name="kdo10" type="text"></li>
+                        <li><input id="kdo11" name="kdo11" type="text"></li>
+                        <li><input id="kdo12" name="kdo12" type="text"></li>
+                    </ul>
+                </div>
+
+                <!-- Colonne droite : cadeau préféré + autres à gâter -->
+                <div class="colonne-droite">
+
+                    <!-- Cadeau préféré  -->
+                    <div class="pref">
+                        <p>
+                            Le
+                            <input id="kdo-pref" name="kdo-pref" type="text" placeholder="Nom du cadeau">
+                            qui me plairait le plus :
+                        </p>
+
+                        <!-- Image du cadeau  -->
+                        <div class="image-pref">
+                            <img src="images/cadeau.png" alt="Icône de cadeau">
+                        </div>
+
+                        <!-- Description du cadeau préféré -->
+                        <textarea id="texte-kdo-pref" name="texte-kdo-pref" rows="4"
+                            placeholder="Tu peux décrire ton cadeau préféré ici"></textarea>
+                    </div>
+
+                    <!-- Autres personnes à gâter  -->
+                    <div class="gater-aussi">
+                        <p>N'oublie pas de gâter aussi :</p>
+                        <textarea id="gater-aussi" name="gater-aussi" rows="4"
+                            placeholder="Satan, Lucifer, Méphistophélès"></textarea>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Dernier bloc  -->
+        <div class="message-final">
+
+            <p>
+                Je laisserai
+                <input id="surprise" name="surprise" type="text" placeholder="Un biscuit, du lait...">
+                pour toi et les rennes. À bientôt !
+            </p>
+
+            <p class="signature">
+                Signé :
+                <input id="signature" name="signature" type="text" placeholder="Ton prénom ou ta signature">
+            </p>
+
+        </div>
+
+        <!-- Décorations du bas  -->
+        <div class="decor-bas">
+            <img src="images/pere-noel.png" alt="Père Noël">
+            <img src="images/sapin.png" alt="Sapin de Noël">
+            <img src="images/cadeaux.png" alt="Cadeaux de Noël">
+        </div>
+
+    </main>
+
+</body>
+
+</html>
