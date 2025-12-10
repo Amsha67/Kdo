@@ -1,0 +1,273 @@
+/* Fond général */
+body {
+    font-family: "";
+    background-image: url("./images/back.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    padding: 40px 10px;
+}
+
+/* Grand titre  */
+
+.titre {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+#imgt1 {
+    height: 80px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+#t1 {
+    display: inline;
+    font-size: 2.5rem;
+    color: #28445a;
+    font-weight: 400;
+}
+
+#imgt2 {
+    height: 80px;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+
+/* Bloc principal  */
+.carte-noel {
+    background-color: #ffffff;
+    width: 800px;
+    border-radius: 16px;
+    border: 13px solid #28445a;
+    /* bordure bleue */
+    border-image: url();
+
+    padding: 30px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* --------- Bloc présentation --------- */
+
+
+.presentation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Ligne 1 et ligne 2 en horizontal */
+#p1,
+#p2 {
+    display: flex;
+    gap: 20px;
+    /* espace entre les deux phrases */
+    align-items: center;
+    /* aligne inputs et texte correctement */
+}
+
+
+
+
+/* Inputs intégrés dans la ligne, façon trait à remplir */
+.presentation input {
+    border: none;
+    border-bottom: 1px solid #c9b79d;
+    background-color: transparent;
+    padding: 2px 4px;
+    min-width: 120px;
+}
+
+/* --------- Décorations au centre --------- */
+
+.decor-centre {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin: 5px 0 10px;
+}
+
+.decor-centre img {
+    height: 40px;
+    /* ajuste selon tes images */
+}
+
+/* --------- Titre souhaits --------- */
+
+.titre-souhaits {
+    text-align: center;
+}
+
+.titre-souhaits h2 {
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+/* --------- Bloc KDO (2 colonnes) --------- */
+
+
+
+/* Deux colonnes : liste à gauche, préférences à droite */
+.colonnes-cadeaux {
+    display: flex;
+    gap: 20px;
+}
+
+/* Colonne gauche : Ma liste de Kdo */
+.kdo {
+    flex: 1;
+    /* prend 50% si la droite aussi a flex:1 */
+    background-color: #f9e7d5;
+    border-radius: 12px;
+    padding: 12px 14px;
+}
+
+.kdo p {
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.kdo ul {
+    list-style: none;
+}
+
+.kdo li+li {
+    margin-top: 6px;
+}
+
+/* Chaque input de la liste de cadeaux occupe toute la largeur de la ligne */
+.kdo input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #d0be97;
+    background-color: transparent;
+    padding: 2px 4px;
+}
+
+/* Colonne droite */
+.colonne-droite {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+/* Bloc cadeau préféré */
+.pref {
+    background-color: #f9f0d5;
+    border-radius: 12px;
+    padding: 12px 14px;
+}
+
+.pref p {
+    margin-bottom: 8px;
+}
+
+/* petite icône de cadeau dans le texte */
+.pref p img {
+    height: 20px;
+    vertical-align: middle;
+}
+
+/* Image du cadeau alignée à droite ou au centre */
+.image-pref {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 6px;
+}
+
+.image-pref img {
+    height: 30px;
+}
+
+/* Textarea du cadeau préféré */
+.pref textarea {
+    width: 100%;
+    border: 1px solid #d0be97;
+    border-radius: 8px;
+    padding: 6px 8px;
+    resize: vertical;
+    min-height: 80px;
+    background-color: #fffdf7;
+}
+
+/* Gater */
+.gater {
+    background-color: #f9f0d5;
+    border-radius: 12px;
+    padding: 12px 14px;
+}
+
+.gater p {
+    margin-bottom: 8px;
+}
+
+.gater textarea {
+    width: 100%;
+    border: 1px solid #d0be97;
+    border-radius: 8px;
+    padding: 6px 8px;
+    resize: vertical;
+    min-height: 80px;
+    background-color: #fffdf7;
+}
+
+/* --------- Dernier bloc : message + signature --------- */
+
+.message-final {
+    background-color: #fffaf0;
+    border-radius: 12px;
+    padding: 12px 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 0.95rem;
+}
+
+.message-final input {
+    border: none;
+    border-bottom: 1px solid #d0be97;
+    background-color: transparent;
+    padding: 2px 4px;
+    min-width: 140px;
+}
+
+.signature {
+    align-self: flex-end;
+}
+
+/* --------- Décorations du bas --------- */
+
+
+
+.bas {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.bas img {
+    width: 100%;
+    height: 60%;
+
+}
+
+
+/* --------- Styles communs aux inputs et textarea --------- */
+
+textarea:focus,
+input:focus {
+    outline: none;
+    border-color: #e2924c;
+}
+
+::placeholder {
+    color: #b3a089;
+    font-style: italic;
+}

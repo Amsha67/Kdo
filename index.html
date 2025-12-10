@@ -4,64 +4,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Liste de Kdo</title>
+    <title>Liste de Kdo moche</title>
     <link href="./Asset/style.css" rel="stylesheet">
 </head>
 
 <body>
 
-    <!-- Titre général de la page -->
-    <header>
-        <h1>Cher Père Noël</h1>
-    </header>
 
-    <!-- Reste de la page -->
+
+    <!-- Page -->
     <main class="carte-noel">
+
+        <!-- Titre général de la page -->
+        <div class="titre">
+            <img src="./Asset/images/gui.png" id="imgt1" alt="gui de Noël">
+            <h1 id="t1">Cher Père Noël</h1>
+            <img src="./Asset/images/ruban.png" id="imgt2" alt="ruban jaune">
+        </div>
 
         <!-- Bloc de présentation -->
         <div class="presentation">
 
-            <p>
-                Je m'appelle
-                <input id="nom" name="nom" type="text" placeholder="Ton prénom">
-            </p>
+            <div id="p1">
+                <p>
+                    Je m'appelle
+                    <input id="nom" name="nom" type="text" placeholder="Ton prénom">
+                </p>
 
-            <p>
-                J'ai
-                <input id="age" name="age" type="number" min="0" placeholder="Ton âge">
-                années d'existence
-            </p>
+                <p>
+                    J'ai
+                    <input id="age" name="age" type="number" min="0" placeholder="Ton âge">
+                    années d'existence
+                </p>
+            </div>
+            <div id="p2">
 
-            <p>
-                J'habite à
-                <input id="ville" name="ville" type="text" placeholder="Ta ville">
-            </p>
+                <p>
+                    J'habite à
+                    <input id="ville" name="ville" type="text" placeholder="Ta ville">
+                </p>
 
-            <p>
-                et j'ai seulement commis
-                <input id="sage" name="peches" type="text" placeholder="Nombre de péchés">
-                peché !
-            </p>
-
+                <p>
+                    et j'ai seulement commis
+                    <input id="sage" name="peches" type="text" placeholder="Nombre de péchés">
+                    pechés !
+                </p>
+            </div>
         </div>
 
-        <!-- Petite ligne de décorations centrales (images de Noël) -->
+        <!-- Petite ligne de décorations centrales -->
         <div class="decor-centre">
-            <img src="images/decor1.png" alt="Décoration de Noël">
-            <img src="images/decor2.png" alt="Décoration de Noël">
-            <img src="images/decor3.png" alt="Décoration de Noël">
+            <img src="./Asset/images/decor1.png" alt="Noeud rouge">
+            <img src="./Asset/images/decor2.png" alt="Bonnet de Noël">
+            <img src="./Asset/images/decor3.png" alt="Cloche de Noël">
+            <img src="./Asset/images/decor3.png" alt="Cloche de Noël">
+            <img src="./Asset/images/decor2.png" alt="Bonnet de Noël">
+            <img src="./Asset/images/decor1.png" alt="Noeud rouge">
         </div>
 
-        <!-- Titre des souhaits (ton texte gardé) -->
+        <!-- Titre des souhaits -->
         <div class="titre-souhaits">
-            <h2>J'aimerais beaucoup que tu m'apportes :</h2>
+            <h2>J'aimerais acquerir un certain nombre de biens :</h2>
         </div>
 
         <!-- Bloc KDO -->
         <div class="bloc">
 
             <div class="colonnes-cadeaux">
-                <!-- Colonne gauche : Ma liste de Kdo -->
+                <!-- Colonne gauche-->
                 <div class="kdo">
                     <p>Ma liste de Kdo :</p>
                     <ul>
@@ -105,34 +115,35 @@
                         <textarea id="gater-aussi" name="gater-aussi" rows="4"
                             placeholder="Satan, Lucifer, Méphistophélès"></textarea>
                     </div>
+                    <!-- Dernier bloc  -->
+                    <div class="message-final">
+
+                        <p>
+                            Je laisserai
+                            <input id="surprise" name="surprise" type="text" placeholder="Du charbon et des cendres">
+                            pour toi et les rennes. À bientôt !
+                        </p>
+
+                        <p class="signature">
+                            Signé :
+                            <input id="signature" name="signature" type="text" placeholder="----------">
+                        </p>
+
+                    </div>
 
                 </div>
+            </div>
+            <!-- Décorations du bas  -->
+            <div class="bas">
+                <img src="./Asset/images/bas.png" alt="ilustration moche de peres noels et de renes avec des sapins">
+
             </div>
 
         </div>
 
-        <!-- Dernier bloc  -->
-        <div class="message-final">
 
-            <p>
-                Je laisserai
-                <input id="surprise" name="surprise" type="text" placeholder="Du charbon et des cendres">
-                pour toi et les rennes. À bientôt !
-            </p>
 
-            <p class="signature">
-                Signé :
-                <input id="signature" name="signature" type="text" placeholder="Ton prénom ou ta signature">
-            </p>
 
-        </div>
-
-        <!-- Décorations du bas  -->
-        <div class="decor-bas">
-            <img src="images/pere-noel.png" alt="Père Noël">
-            <img src="images/sapin.png" alt="Sapin de Noël">
-            <img src="images/cadeaux.png" alt="Cadeaux de Noël">
-        </div>
 
     </main>
 
