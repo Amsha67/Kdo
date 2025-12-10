@@ -9,7 +9,7 @@ body {
     background-size: cover;
     display: flex;
     justify-content: center;
-    padding: 40px 10px;
+    padding: 5vh 2vw;
     line-height: 260%;
     font-family: 'Mountains of Christmas', serif;
     color: #153248;
@@ -26,8 +26,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 16px;
-    margin-bottom: 20px;
+    gap: 2%;
+    margin-bottom: 2%;
 }
 
 #imgt1 {
@@ -40,8 +40,8 @@ body {
 
 #t1,
 #t2 {
-    font-size: 60px;
-    margin-top: 10px;
+    font-size: 3.5vw;
+    margin-top: 1vh;
     margin-bottom: 0;
     font-weight: 400;
 
@@ -53,11 +53,11 @@ body {
     width: 70%;
     border-radius: 18px;
     border: 12px solid #28445a;
-    padding: 30px 40px;
+    padding: 3% 5% 0 5%;
     display: flex;
     flex-direction: column;
-    gap: 18px;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+    gap: 2%;
+    box-shadow: 0 1.5vh 3vh rgba(0, 0, 0, 0.25);
 }
 
 /* --------- Bloc présentation --------- */
@@ -69,8 +69,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 6px;
-    font-size: 18px;
+    gap: 0.5rem;
+    font-size: 1.1rem;
 
 
 }
@@ -82,13 +82,13 @@ body {
 #p2 {
     display: flex;
     /* espace entre les deux phrases */
-    gap: 24px;
+    gap: 1.5rem;
     /* aligne inputs et texte correctement */
     align-items: center;
 }
 
 .presentation p {
-    margin: 10px 0;
+    margin: 0.6rem 0;
     white-space: nowrap;
 
 }
@@ -98,8 +98,8 @@ body {
     border: none;
     border-bottom: 1px solid #c9b79d;
     background-color: #f9e7d5;
-    padding: 2px 6px;
-    min-width: 120px;
+    padding: 0.1rem 0.4rem;
+    min-width: 8rem;
     border-radius: 4px;
 }
 
@@ -112,8 +112,8 @@ body {
 .decor-centre {
     display: flex;
     justify-content: center;
-    gap: 10px;
-    margin-top: 6px;
+    gap: 0.6rem;
+    margin-top: 0.5rem;
 }
 
 /* ajuste selon tes images */
@@ -124,11 +124,11 @@ body {
 /* --------- Titre souhaits --------- */
 .titre-souhaits {
     text-align: center;
-    margin-top: 10px;
+    margin-top: 1%;
 }
 
 .titre-souhaits h2 {
-    font-size: 20px;
+    font-size: 1.2rem;
     font-weight: 400;
     line-height: 1.4;
 }
@@ -141,7 +141,7 @@ body {
 .colonnes-cadeaux {
     display: flex;
     justify-content: space-between;
-    gap: 20px;
+    gap: 2%;
     align-items: stretch;
 }
 
@@ -150,7 +150,7 @@ body {
     flex: 2;
     background-color: #f9e7d5;
     border-radius: 16px;
-    padding: 16px 20px;
+    padding: 2% 3%;
     text-align: center;
     line-height: 200%;
 }
@@ -171,8 +171,8 @@ body {
 .kdo li {
 
     position: relative;
-    padding-left: 36px;
-    margin-bottom: 8px;
+    padding-left: 2.4rem;
+    margin-bottom: 0.5rem;
 }
 
 /* 1ère image */
@@ -221,7 +221,7 @@ body {
     width: 100%;
     border: none;
     border-bottom: 1px solid #c97d26;
-    padding: 2px 4px;
+    padding: 0.1rem 0.3rem;
     background-color: transparent;
 }
 
@@ -233,13 +233,13 @@ body {
     flex: 2;
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 0.8rem;
 }
 
 /* Bloc cadeau préféré */
 .pref {
     background-color: #f9e7d5;
-    padding: 12px 14px;
+    padding: 1rem;
     border-radius: 16px;
 }
 
@@ -256,7 +256,7 @@ body {
     width: 100%;
     border: none;
     border-bottom: 1px solid #c97d26;
-    padding: 2px 4px;
+    padding: 0.2rem 0.3rem;
     background-color: transparent;
 }
 
@@ -285,7 +285,7 @@ body {
 
 .gater {
     background-color: #f9e7d5;
-    padding: 12px 14px;
+    padding: 1rem;
     border-radius: 16px;
 }
 
@@ -302,7 +302,7 @@ body {
     width: 100%;
     border: none;
     border-bottom: 1px solid #c97d26;
-    padding: 2px 4px;
+    padding: 0.2rem 0.3rem;
     background-color: transparent;
 }
 
@@ -323,8 +323,8 @@ body {
     border: none;
 
     background-color: #f9e7d5;
-    padding: 2px 6px;
-    min-width: 120px;
+    padding: 0.2rem 0.4rem;
+    min-width: 7rem;
     border-radius: 4px;
 }
 
@@ -332,7 +332,7 @@ body {
     /* permet de remplir la ligne */
     width: 80%;
     border-radius: 8px;
-    padding: 6px 8px;
+    padding: 0.4rem 0.6rem;
     background-color: #f9e7d5;
     box-sizing: border-box;
 }
@@ -343,14 +343,14 @@ body {
 }
 
 .signature input {
-    padding: 6px 8px;
+    padding: 0.4rem 0.6rem;
 }
 
 /* --------- Décorations du bas --------- */
 .bas {
     width: 100%;
     margin: 0;
-    margin-top: 10px;
+    margin-top: 1%;
     padding: 0;
     display: flex;
     justify-content: center;
@@ -372,4 +372,54 @@ body {
     border: none;
     color: #b3a089;
     font-style: italic;
+}
+
+
+
+/* ============ Responsive téléphone ============ */
+
+@media (max-width: 768px) {
+
+    body {
+        padding: 2vh 2vw;
+        line-height: 200%;
+    }
+
+    .carte-noel {
+        width: 95%;
+        padding: 4% 4% 0 4%;
+        border-width: 8px;
+        gap: 3%;
+    }
+
+    #t1,
+    #t2 {
+        font-size: 7vw;
+    }
+
+    .presentation {
+        font-size: 0.9rem;
+        line-height: 1.6;
+    }
+
+    #p1,
+    #p2 {
+        flex-direction: column;
+        gap: 0.2rem;
+        align-items: flex-start;
+    }
+
+    .colonnes-cadeaux {
+        flex-direction: column;
+        gap: 4%;
+    }
+
+    .kdo,
+    .colonne-droite {
+        flex: 1;
+    }
+
+    #surprise {
+        width: 100%;
+    }
 }
